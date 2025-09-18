@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courtney Pasternak's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6487f0a3d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="landing-page">
+      <nav>
+        <figure class="personal-logo">
+            <img src="./assets/Monogram-CP-Logo-by-Greenlines-Studios.jpg" alt="">
+        </figure>
+         <ul class="nav__link--list">
+        <li class="nav__link" onclick="toggleModal()">
+          <a href="#" class="
+            nav__link--anchor
+            link__hover-effect
+            link__hover-effect--black
+          ">About</a>
+        </li>
+        <li class="nav__link">
+          <a href="#projects" class="
+            nav__link--anchor
+            link__hover-effect
+            link__hover-effect--black
+          ">Projects</a>
+        </li>
+        <li class="nav__link" onclick="toggleModal()">
+          <a href="#" class="
+            nav__link--anchor
+            link__hover-effect
+            link__hover-effect--black
+          ">Contact</a>
+        </li>
+        <li class="nav__link click" onclick="toggleContrast()">
+          <a href="#" class="
+            nav__link--anchor
+            link__hover-effect
+            link__hover-effect--black
+          "><i class="fas fa-adjust"></i></a>
+        </li>
+      </ul>
+      </nav> 
+      <header class="header">
+        <div class="header__content">
+        <h1 class="title">Hey,<br><span class="purple">I'm Courtney.</span></h1>
+        <p class="header__para">I'm a <span class="purple">Frontend Software Engineer</span> with a strong passion for building web applications with great user experiences. <br>Here's a bit more <span class="purple">about me.</span></p>
+        <div class="social__links">
+            <a href="https://github.com/chcharris763-tech" target="_blank" class="social__link click"><i class="fa-brands fa-github"></i></a>
+            <a href="" class="social__link click"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://docs.google.com/document/d/1JG1Dj3jhzm_Snlh8rhL69MtTUDNfB-r9/edit?usp=drive_link&ouid=100085656530286140267&rtpof=true&sd=true" target="_blank" class="social__link click"><i class="fa-solid fa-file"></i></a>
+        </div>
+        </div>
+    </header> 
+    <a href="#">
+      <button class="mail__btn click" onclick="toggleModal()">
+        <i class="fas fa-envelope"></i>
+      </button>
+    </a>
+  </section>
+  <section id="projects">
+    <div class="container">
+      <h1 class="section__title">
+        Here are some of my <span class="purple">projects.</span>
+      </h1>
+      <ul class="projects__list">
+        <li class="project">
+          <div class="project__wrapper">
+            <img src="./assets/Capture.PNG" class="project__img" alt="">
+            <div class="project__wrapper--bg"></div>
+            <div class="project__description">
+              <h3 class="project__description--title">Treact Mockup Project</h3>
+              <h4 class="project__description--subtitle">
+                HTML, CSS, JavaScript
+              </h4>
+              <p class="project__description--para">A React-based landing page template with pre-built components and sections for easy customization.</p>
+              <a href="https://chcharris763-tech.github.io/TreactModule2/" target="_blank" class="social__link click"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo">
+            <img src="./assets/logo.svg" class="footer__logo--img" alt="">
+          </figure>
+          <span class="footer__logo--popper">
+            Top
+            <i class="fas fa-arrow-up"></i>
+          </span>
+        </a>
+        <div class="footer__social--list">
+          <a href="https://github.com/chcharris763-tech" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+        ">
+            GitHub
+          </a>
+          <a href="" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+        ">
+            LinkedIn
+          </a>
+          <a href="#" onclick="toggleModal()" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+        ">
+            Contact
+          </a>
+          <a href="https://docs.google.com/document/d/1JG1Dj3jhzm_Snlh8rhL69MtTUDNfB-r9/edit?usp=drive_link&ouid=100085656530286140267&rtpof=true&sd=true" target="_blank" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+        ">
+            Resume
+          </a>
+        </div>
+        <div class="footer__copyright">Copyright &copy; 2025 Courtney Pasternak</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
