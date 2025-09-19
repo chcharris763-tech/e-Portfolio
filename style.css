@@ -528,7 +528,7 @@ nav {
 .project__wrapper:hover .project__description {
     opacity: 1;
     transform: translateY(-50%);
-    transition: opacity 300ms, transform 450ms ease;
+    
 }
 
 .project__wrapper:hover .project__img {
@@ -550,6 +550,7 @@ nav {
     color: white;
     max-width: 550px;
     opacity: 0;
+    transition: opacity 300ms, transform 450ms ease;
 }
 
 .project__wrapper--bg {
